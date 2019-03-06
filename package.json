@@ -30,7 +30,11 @@
   },
   "homepage": "https://github.com/botorjs/cord#readme",
   "dependencies": {
-    "@botorjs/boot": "0.0.1"
+    "@botorjs/boot": "0.0.1",
+    "@types/dotenv": "^6.1.0",
+    "@types/lodash": "^4.14.122",
+    "dotenv": "^6.2.0",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
@@ -42,6 +46,7 @@
     "debug": "^4.1.1",
     "mocha": "^6.0.2",
     "nyc": "^13.3.0",
+    "ts-node": "^8.0.2",
     "typescript": "^3.3.3333"
   }
 }
