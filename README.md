@@ -125,7 +125,7 @@ project
 * Cord is backgroud connect to component
 
 | Property   |      Description      |
-|---------- |:-------------|------|
+|---------- |:-------------|
 | config  |  get config cord | 
 | boot |    get Boot   | 
 | root(folder) | set folder root of appliction | 
@@ -136,7 +136,7 @@ project
 * load config in file `.env`(default) to environment and get set environment
 
 | Property   |      Description      |
-|---------- |:-------------|------|
+|---------- |:-------------|
 | get  |  get value environment | 
 | set |   set value environment  | 
 
@@ -144,7 +144,7 @@ project
 * load config in file `.env`(default) to environment and get set environment
 
 | Property   |      Description      | Defaul |
-|---------- |:-------------|------|------------|
+|---------- |:-------------|------|
 | start_folder  |  Folder the file start is config input of component | "start"  |
 | app_file |   sFile config provider of Boot  | "app.ts" |
 | root |   Root folder of application  |  null |
@@ -154,6 +154,6 @@ project
 * Config default of App
 
 | Property   |      Description      |
-|---------- |:-------------|------|
+|---------- |:-------------|
 | providers  |  the ServiceProvider of Boot | 
 | aliases |   the alias of Boot | 
