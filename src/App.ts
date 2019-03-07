@@ -1,5 +1,12 @@
 
 export class App {
-    public provivders: any[] = [];
+    /**
+     *  the ServiceProvider of Boot
+     */
+    public providers: any[] = [];
+
+    /**
+     *  the alias of Boot
+     */
     public aliases: object = {};
 }
